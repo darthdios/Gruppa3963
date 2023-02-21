@@ -10,7 +10,7 @@ int secondNumber = Convert.ToInt32(Console.ReadLine());
 // Метод void вводим
 void squareTest(int firstNumber, int secondNumber)
 {
-    if(firstNumber == Math.Pow(secondNumber))
+    if(firstNumber == Math.Pow(firstNumber, secondNumber))
     {
         Console.WriteLine($"Число {firstNumber} является квадратом {secondNumber}");
     }
