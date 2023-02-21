@@ -3,7 +3,7 @@
 // цифры нет.
 
 // Необходимо считать само число
-string num = Console.ReadLine();
+string num = Console.ReadLine()??"0";
 
 // Надо превратить это число в массив
 char[] array = num.ToCharArray();
